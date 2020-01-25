@@ -1,6 +1,5 @@
 body{	
-	/*background-image: url("img/fond.jpg");
-	
+	/*background-image: url("img/fond.jpg");	
 	background-size: cover;*/
 }
 
@@ -22,7 +21,11 @@ body{
   }
   .parallax__layer--back {
 	transform: translateZ(-1px);
+	
   }
+
+
+
 
 #slideshow {
 	
@@ -31,8 +34,8 @@ body{
 	height: 310px;
 	padding: 15px;
 	margin: 0 auto 2em;
-	/*border: 1px solid #ddd;*/
-	background: #FFF;
+	/*border: 1px solid #ddd;
+	background: #FFF;*/
 	/* CSS3 effects */
 	/*background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);*/
 	/*border-radius: 2px 2px 2px 2px;*/
@@ -43,7 +46,7 @@ body{
  * tutorial @
  * https://www.creativejuiz.fr/blog/les-tutoriels/ombre-avancees-avec-css3-et-box-shadow 
 */
-#slideshow:before,
+/*#slideshow:before,
 #slideshow:after {
 	position: absolute;
 	bottom:16px;
@@ -53,8 +56,8 @@ body{
 	content: " ";
 	background: rgba(0,0,0,0.1);
 	border-radius: 50%;
-	/*box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);*/
-}
+	box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+}*/
 #slideshow:before {
 	left:0;
 	transform: rotate(-4deg);
