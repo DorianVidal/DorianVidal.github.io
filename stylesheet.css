@@ -1,3 +1,7 @@
+#body{
+	background-image: url("fond.jpg");
+}
+
 #Presentation {
     
 }
@@ -6,6 +10,7 @@
 
 
 #slideshow {
+	
 	position: relative;
 	width: 640px;
 	height: 310px;
