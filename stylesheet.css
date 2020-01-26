@@ -1,37 +1,18 @@
+#slide1 {
+    background: url(img/fond.jpg) center 0 no-repeat fixed;
+}
+
+#slide2 {
+    background: url(img/fond1.jpg) center 0 no-repeat fixed;
+}
+
+#slide3 {
+    background: url(img/fond.jpg) center 0 no-repeat fixed;
+}
+
 body {
     /*background-image: url("img/fond.jpg");	
 	background-size: cover;*/
-}
-
-.parallax {
-    perspective: 1px;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
-.parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.parallax__layer--base {
-    transform: translateZ(0);
-}
-
-.parallax__layer--back {
-    transform: translateZ(-1px);
-}
-
-
-/*IMPORTANT*/
-
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
 }
 
 #slideshow {
@@ -231,4 +212,40 @@ body {
 #slideshow figcaption {
     /* ... la propriété animation */
     animation: figcaptionner 32s infinite;
+}
+
+#Presentation {
+    background-color: rgba(0, 0, 0, 0);
+    height: 50em;
+    text-align: center;
+    color: #000;
+    font: "Luna";
+}
+
+#Presentation h1 {
+    font-size: 6em;
+}
+
+#Parcours {
+    background-color: rgba(0, 0, 0, 0);
+    height: 50em;
+    text-align: center;
+    color: #000;
+    font: "Luna";
+}
+
+#Parcours h1 {
+    font-size: 6em;
+}
+
+#Presentation {
+    background-color: rgba(0, 0, 0, 0);
+    height: 50em;
+    text-align: center;
+    color: #000;
+    font: "Luna";
+}
+
+#Presentation h1 {
+    font-size: 6em;
 }
