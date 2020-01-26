@@ -7,13 +7,52 @@
 }
 
 #slide3 {
-    background: url(img/fond.jpg) center 0 no-repeat fixed;
+    background: url(img/fond2.jpg) center 0 no-repeat fixed;
 }
 
 body {
     /*background-image: url("img/fond.jpg");	
 	background-size: cover;*/
 }
+
+#Presentation {
+    background-color: rgba(0, 0, 0, 0);
+    height: 50em;
+    text-align: center;
+    color: #000;
+    font: "Luna";
+}
+
+#Presentation h1 {
+    font-size: 6em;
+}
+
+#Parcours {
+    background-color: rgba(0, 0, 0, 0);
+    height: 50em;
+    text-align: center;
+    color: #000;
+    font: "Luna";
+}
+
+#Parcours h1 {
+    font-size: 6em;
+}
+
+#Presentation {
+    background-color: rgba(0, 0, 0, 0);
+    height: 50em;
+    text-align: center;
+    color: #000;
+    font: "Luna";
+}
+
+#Presentation h1 {
+    font-size: 6em;
+}
+
+
+/***********************************************************************************SLIDE*********************************/
 
 #slideshow {
     position: relative;
@@ -212,40 +251,4 @@ body {
 #slideshow figcaption {
     /* ... la propriété animation */
     animation: figcaptionner 32s infinite;
-}
-
-#Presentation {
-    background-color: rgba(0, 0, 0, 0);
-    height: 50em;
-    text-align: center;
-    color: #000;
-    font: "Luna";
-}
-
-#Presentation h1 {
-    font-size: 6em;
-}
-
-#Parcours {
-    background-color: rgba(0, 0, 0, 0);
-    height: 50em;
-    text-align: center;
-    color: #000;
-    font: "Luna";
-}
-
-#Parcours h1 {
-    font-size: 6em;
-}
-
-#Presentation {
-    background-color: rgba(0, 0, 0, 0);
-    height: 50em;
-    text-align: center;
-    color: #000;
-    font: "Luna";
-}
-
-#Presentation h1 {
-    font-size: 6em;
 }
