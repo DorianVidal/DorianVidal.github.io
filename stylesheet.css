@@ -26,18 +26,26 @@ body {
     transform: translateZ(-1px);
 }
 
+
+/*IMPORTANT*/
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
 #slideshow {
     position: relative;
     width: 640px;
     height: 310px;
     padding: 15px;
     margin: 0 auto 2em;
-    /*border: 1px solid #ddd;
-	background: #FFF;*/
+    border: 1px solid #ddd;
+    background: #FFF;
     /* CSS3 effects */
-    /*background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);*/
-    /*border-radius: 2px 2px 2px 2px;*/
-    /*box-shadow: 0 0 3px rgba(0,0,0, 0.2);*/
+    background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
 
