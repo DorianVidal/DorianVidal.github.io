@@ -232,13 +232,3 @@ body {
     /* ... la propriété animation */
     animation: figcaptionner 32s infinite;
 }
-
-
-/*************GESTION DE LA POLICE D'ECRITURE******************/
-
-#Presentation {
-    font-family: 'Nunito Sans', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 5.2em;
-}
