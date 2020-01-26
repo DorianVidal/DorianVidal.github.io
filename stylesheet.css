@@ -1,26 +1,33 @@
 #slide1 {
     background: url(img/fond.jpg) center 0 no-repeat fixed;
+    margin-top: -85px;
+    margin-left: -10px;
+    margin-right: 5px;
 }
 
 #slide2 {
     background: url(img/fond1.jpg) center 0 no-repeat fixed;
+    margin-top: -85px;
 }
 
 #slide3 {
     background: url(img/fond2.jpg) center 0 no-repeat fixed;
+    margin-top: -20px;
 }
 
 body {
-    /*background-image: url("img/fond.jpg");	
-	background-size: cover;*/
+    background-image: black;
+    background-size: cover;
 }
 
 #Presentation {
+    margin: 0px;
     background-color: rgba(0, 0, 0, 0);
     height: 50em;
     text-align: center;
     color: #000;
     font: "Luna";
+    block-size: 50em;
 }
 
 #Presentation h1 {
@@ -39,15 +46,16 @@ body {
     font-size: 6em;
 }
 
-#Presentation {
+#Rea {
     background-color: rgba(0, 0, 0, 0);
-    height: 50em;
+    height: 80em;
+    width: 100em;
     text-align: center;
     color: #000;
     font: "Luna";
 }
 
-#Presentation h1 {
+#Rea h1 {
     font-size: 6em;
 }
 
