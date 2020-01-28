@@ -1,262 +1,120 @@
-#slide1 {
-    background: url(img/fond.jpg) center 0 no-repeat fixed;
-    margin-top: -85px;
-    margin-left: -10px;
-    margin-right: 5px;
-}
+/*******************STYLE DES SECTIONS*****************/
 
-#slide2 {
-    background: url(img/fond1.jpg) center 0 no-repeat fixed;
-    margin-top: -85px;
-}
-
-#slide3 {
-    background: url(img/fond2.jpg) center 0 no-repeat fixed;
-    margin-top: -20px;
-}
-
-body {
-    background-image: black;
+header {
+    background-image: url("img/fond.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-}
-
-#Presentation {
-    margin: 0px;
-    background-color: rgba(0, 0, 0, 0);
-    height: 50em;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    opacity: 1.0;
     text-align: center;
-    color: #000;
-    font: "Luna";
-    block-size: 50em;
 }
 
-#Presentation h1 {
-    font-size: 6em;
-}
-
-#Parcours {
-    background-color: rgba(0, 0, 0, 0);
-    height: 50em;
+#introduction {
+    background-image: url("img/fond1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    opacity: 1.0;
     text-align: center;
-    color: #000;
-    font: "Luna";
 }
 
-#Parcours h1 {
-    font-size: 6em;
-}
-
-#Rea {
-    background-color: rgba(0, 0, 0, 0);
-    height: 80em;
-    width: 100em;
+#bibliotheque {
+    background-image: url("img/b1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    opacity: 0.8;
     text-align: center;
-    color: #000;
-    font: "Luna";
 }
 
-#Rea h1 {
-    font-size: 6em;
-}
-
-
-/***********************************************************************************SLIDE*********************************/
-
-#slideshow {
-    position: relative;
-    width: 640px;
-    height: 310px;
-    padding: 15px;
-    margin: 0 auto 2em;
-    border: 1px solid #ddd;
-    background: #FFF;
-    /* CSS3 effects */
-    background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-    border-radius: 2px 2px 2px 2px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-}
-
-
-/* avanced box-shadow
- * tutorial @
- * https://www.creativejuiz.fr/blog/les-tutoriels/ombre-avancees-avec-css3-et-box-shadow 
-*/
-
-#slideshow:before,
-#slideshow:after {
-    position: absolute;
-    bottom: 16px;
-    z-index: -10;
-    width: 50%;
-    height: 20px;
-    content: " ";
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 20px 10px rgba(0, 0, 0, 0.7);
-}
-
-#slideshow:before {
-    left: 0;
-    transform: rotate(-4deg);
-}
-
-#slideshow:after {
-    right: 0;
-    transform: rotate(4deg);
-}
-
-
-/* gestion des dimensions et débordement du conteneur */
-
-#slideshow .container {
-    position: relative;
-    width: 640px;
-    height: 310px;
-    overflow: hidden;
-}
-
-
-/* on prévoit un petit espace gris pour la timeline */
-
-#slideshow .container:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: " ";
-    width: 100%;
-    height: 1px;
-    background: #999;
-}
-
-
-/* 
-   le conteneur des slides
-   en largeur il fait 100% x le nombre de slides
-*/
-
-#slideshow .slider {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 400%;
-    height: 310px;
-}
-
-
-/* annulation des marges sur figure */
-
-#slideshow figure {
-    position: relative;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-}
-
-
-/* styles de nos légendes */
-
-#slideshow figcaption {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 5px;
-    padding: 20px;
-    margin: 0;
-    border-top: 1px solid rgb(225, 225, 225);
+#b2 {
+    background-image: url("img/b2.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    opacity: 0.8;
     text-align: center;
-    letter-spacing: 0.05em;
-    word-spacing: 0.05em;
-    font-family: Georgia, Times, serif;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.7);
-    color: #555;
-    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.3);
+}
+
+#b3 {
+    background-image: url("img/b3.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#b4 {
+    background-image: url("img/b4.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#RPG1 {
+    background-image: url("img/RPG1.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#RPG2 {
+    background-image: url("img/RPG2.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
 }
 
 
-/* fonction d'animation, n'oubliez pas de prefixer ! */
+/*********************STYLE DES ECRITURES********************************/
 
-@keyframes slider {
-    0%,
-    20%,
-    100% {
-        left: 0
-    }
-    25%,
-    45% {
-        left: -100%
-    }
-    50%,
-    70% {
-        left: -200%
-    }
-    75%,
-    95% {
-        left: -300%
-    }
+h1 {
+    font-size: 7em;
+    color: aliceblue;
 }
 
-
-/* complétez le sélecteur : */
-
-#slideshow .slider {
-    /* ... avec la propriété animation */
-    animation: slider 32s infinite;
+h2 {
+    font-size: 5em;
+    text-align: center;
 }
 
-#timeline {
-    position: absolute;
-    background: #999;
-    bottom: 15px;
-    left: 15px;
-    height: 3px;
-    background: blue;
-    background: blue;
-    width: 0;
-    /* fonction d'animation */
-    animation: timeliner 32s infinite;
+h3 {
+    font-size: 3em;
+    text-align: center;
 }
 
-@keyframes timeliner {
-    0%,
-    25%,
-    50%,
-    75%,
-    100% {
-        width: 0;
-    }
-    20%,
-    45%,
-    70%,
-    90% {
-        width: 640px;
-    }
-}
-
-@keyframes figcaptionner {
-    0%,
-    25%,
-    50%,
-    75%,
-    100% {
-        bottom: -55px;
-    }
-    5%,
-    20%,
-    30%,
-    45%,
-    55%,
-    70%,
-    80%,
-    95% {
-        bottom: 5px;
-    }
-}
-
-
-/* ajouter à l'élément : */
-
-#slideshow figcaption {
-    /* ... la propriété animation */
-    animation: figcaptionner 32s infinite;
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 3em;
+    color: black;
 }
