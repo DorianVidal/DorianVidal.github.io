@@ -102,6 +102,39 @@ p {
     text-align: center;
 }
 
+#REEM {
+    background-image: url("img/reem.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#v2 {
+    background-image: url("img/Donjon.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#v1 {
+    background-image: url("img/Village.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
 
 /*********************STYLE DES ECRITURES********************************/
 
@@ -124,6 +157,15 @@ h3 {
 }
 
 p {
+    font-family: 'Vidaloka', serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+a {
     font-family: 'Vidaloka', serif;
     padding-left: 10%;
     padding-right: 10%;
