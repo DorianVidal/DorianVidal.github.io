@@ -102,6 +102,39 @@ p {
     text-align: center;
 }
 
+#RPG3 {
+    background-image: url("img/RPG3.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#RPG4 {
+    background-image: url("img/RPG4.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#RPG5 {
+    background-image: url("img/RPG5.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
 #REEM {
     background-image: url("img/reem.png");
     background-attachment: fixed;
