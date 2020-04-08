@@ -191,7 +191,7 @@ p {
 }
 
 #d3 {
-    background-image: url("img/dragon_render.jpg.png");
+    background-image: url("img/dragon_render.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
