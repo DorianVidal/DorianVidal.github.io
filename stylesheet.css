@@ -190,6 +190,28 @@ p {
     text-align: center;
 }
 
+#d3 {
+    background-image: url("img/dragon_render.jpg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#ttl1 {
+    background-image: url("img/dragon_render.jpg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
 
 /*********************STYLE DES ECRITURES********************************/
 
