@@ -135,6 +135,61 @@ p {
     text-align: center;
 }
 
+#PTUT1 {
+    background-image: url("img/RPG2.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#PTUT1 {
+    background-image: url("img/RocherJour.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#PTUT2 {
+    background-image: url("img/RocherNuit.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#PTUT3 {
+    background-image: url("img/RocherINteractions.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
+#PTUT4 {
+    background-image: url("img/RocherAutre.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    text-align: center;
+}
+
 #REEM {
     background-image: url("img/reem.png");
     background-attachment: fixed;
