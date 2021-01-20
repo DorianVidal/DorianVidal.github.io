@@ -187,7 +187,11 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
+	}
+
+	.Eng {
+		color :rgb(138, 138, 138)
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1784,7 +1788,7 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		margin-bottom: 2em;
+		margin-bottom: 0em;
 	}
 
 		header.major > :first-child {
